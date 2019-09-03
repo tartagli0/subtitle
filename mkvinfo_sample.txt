@@ -1,0 +1,84 @@
+﻿+ EBML head
+|+ EBML version: 1
+|+ EBML read version: 1
+|+ Maximum EBML ID length: 4
+|+ Maximum EBML size length: 8
+|+ Document type: matroska
+|+ Document type version: 4
+|+ Document type read version: 2
++ Segment: size 1324657675
+|+ Seek head (subentries will be skipped)
+|+ EBML void: size 130
+|+ Segment information
+| + Timestamp scale: 1000000
+| + Title: The Hot Chick
+| + Multiplexing application: Lavf57.7.2
+| + Writing application: HandBrake 1.0.4 2017040900
+| + Segment UID: 0x7b 0x89 0x3a 0x1f 0xb4 0x6c 0x02 0x29 0x4c 0x08 0x94 0x17 0x37 0xbb 0x46 0x95
+| + Duration: 01:44:28.291000000
+|+ Tracks
+| + Track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 1
+|  + Lacing flag: 0
+|  + Language: und
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + Track type: video
+|  + Default duration: 00:00:00.041708333 (23.976 frames/fields per second for a video track)
+|  + Video track
+|   + Pixel width: 710
+|   + Pixel height: 460
+|   + Interlaced: 0
+|   + Display unit: 3 (aspect ratio)
+|   + Display width: 841
+|   + Display height: 460
+|  + Codec's private data: size 47 (h.264 profile: Main @L4.0)
+| + Track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 2
+|  + Lacing flag: 0
+|  + Name: Stereo
+|  + Language: eng
+|  + Codec ID: A_AAC
+|  + Track type: audio
+|  + Audio track
+|   + Channels: 2
+|   + Sampling frequency: 48000
+|  + Codec's private data: size 5
+| + Track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 3
+|  + Lacing flag: 0
+|  + Language: eng
+|  + Default track flag: 0
+|  + Codec ID: S_VOBSUB
+|  + Track type: subtitles
+|  + Codec's private data: size 349
+| + Track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 4
+|  + Lacing flag: 0
+|  + Language: spa
+|  + Default track flag: 0
+|  + Codec ID: S_VOBSUB
+|  + Track type: subtitles
+|  + Codec's private data: size 349
+|+ Tags
+| + Tag
+|  + Targets
+|  + Simple
+|   + Name: CREATION_TIME
+|   + String: 2017-08-29T21:36:47Z
+|  + Simple
+|   + Name: ENCODER
+|   + String: Lavf57.7.2
+| + Tag
+|  + Targets
+|   + Track UID: 2
+| + Tag
+|  + Targets
+|   + Track UID: 3
+| + Tag
+|  + Targets
+|   + Track UID: 4
+|+ Cluster
